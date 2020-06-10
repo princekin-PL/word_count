@@ -1,0 +1,12 @@
+
+
+<h1>tatol_count:{{ count }}</h1>
+<h2>master input : </h2>
+<p>{{ text }}</p>
+<br>
+
+<h2>count counted</h2>
+{% for word,count in sorted %}
+{{ word }} - {{ count }}
+<br>
+{% endfor %}
